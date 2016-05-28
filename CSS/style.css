@@ -3,6 +3,9 @@ html,body,div,ul,li,a {
 	padding: 0;
 	box-sizing:border-box;
 }
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+}
 h1,h2,h3,h4 {
 	color: #3B5998;
 }
