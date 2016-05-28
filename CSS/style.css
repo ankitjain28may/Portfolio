@@ -32,7 +32,7 @@ body {
 	position: fixed;
 }
 .center {
-	background-image: url("bg.jpg") ;
+	background-image: url("../Images/bg.jpg") ;
 	position: relative;
 	width: 70%;
 	height: 90%;
