@@ -1,37 +1,37 @@
 function all()
 {
-	document.getElementById('Education').style="display:none;";
-	document.getElementById('Experience').style="display:none;";
-	document.getElementById('Profile').style="display:none;";
-	document.getElementById('Project').style="display:none;";
-	document.getElementById('Contact').style="display:none;";
+	$("#Education").hide();
+	$("#Experience").hide();
+	$("#Profile").hide();
+	$("#Project").hide();
+	$("#Contact").hide();
 
 }
 function start()
 {
 	all();
-	document.getElementById('Profile').style="display:block;";
+	$("#Profile").show();
 
 }
 function education() {
 	all();
-	document.getElementById('Education').style="display:block;";
+	$("#Education").show();
 }
 function experience() 
 {
 	all();
-	document.getElementById('Experience').style="display:block;";
+	$("#Experience").show();
 	move();
 }
 function project() 
 {
 	all();
-	document.getElementById('Project').style="display:block;";
+	$("#Project").show();
 }
 function contact() 
 {
 	all();
-	document.getElementById('Contact').style="display:block;";
+	$("#Contact").show();
 }
 
 
