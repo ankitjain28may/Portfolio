@@ -266,3 +266,39 @@ a {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 12px rgba(0,0,0,1.5); 
 }
+
+@media only screen and (max-device-width: 700px) {
+	.sidebar {
+		height: 10%;
+		width: 100%;
+		position: left;
+	}
+	.main {
+		margin-top: 25%;
+		margin-left: 0;
+		width: 100%;
+	}
+	.sidebar ul {
+		list-style: none;
+	}
+	.sidebar ul li {
+		display: inline;
+		border-bottom: 0;
+	}
+	.sidebar ul li:first-child img {
+		margin: 0 25px;
+		width: 100px;
+	}
+	.sidebar ul li:first-child h2 {
+		width: 150px;
+		position: absolute;
+		margin: 0 0;
+	}
+	.sidebar ul li a {
+		display: inline-block;
+		padding: 0 5px;
+	}
+	.sidebar ul li a:hover {
+		width: inherit;
+	}
+}
